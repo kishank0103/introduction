@@ -1,0 +1,25 @@
+.form-box {
+    background-color: #f0f0f0;
+    margin: 80px auto;
+    width: fit-content;
+    padding: 40px 60px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+input, textarea, select {
+    width: 250px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px 15px;
+}
